@@ -20,6 +20,7 @@
   "homepage": "https://github.com/iworkinmysleep/node-auth2-project#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.0.0",
     "knex": "^0.21.4",
