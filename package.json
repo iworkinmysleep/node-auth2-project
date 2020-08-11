@@ -1,0 +1,31 @@
+{
+  "name": "node-auth2-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - JSON Web Tokens (JWTs).\r - Hashing Passwords.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iworkinmysleep/node-auth2-project.git"
+  },
+  "keywords": [],
+  "author": "JH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iworkinmysleep/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/iworkinmysleep/node-auth2-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "knex": "^0.21.4",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
